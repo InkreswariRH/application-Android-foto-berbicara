@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".bagianTubuh"
+    tools:showIn="@layout/activity_bagian_tubuh2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/tombol_mata"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_gravity="end"
+            android:background="#074D85"
+            android:drawableStart="@mipmap/icon_mata"
+            android:drawableLeft="@mipmap/icon_mata"
+            android:focusableInTouchMode="true"
+            android:text="@string/tombol_mata"
+            android:textAlignment="center"
+            android:textColor="#F7F9FA"
+            android:textColorHighlight="@color/colorPrimary"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/tombol_hidung"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_gravity="end"
+            android:background="#1163AC"
+            android:drawableStart="@mipmap/logo_hidung"
+            android:drawableLeft="@color/ic_launcher_background_hidung"
+            android:focusableInTouchMode="true"
+            android:text="@string/tombol_hidung"
+            android:textAlignment="center"
+            android:textColor="#F7F9FA"
+            android:textColorHighlight="@color/colorPrimary"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/tombol_mulut"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_gravity="end"
+            android:background="#074D85"
+            android:drawableStart="@mipmap/icon_mulut"
+            android:drawableLeft="@color/ic_launcher_background"
+            android:focusableInTouchMode="true"
+            android:text="@string/tombol_mulut"
+            android:textAlignment="center"
+            android:textColor="#F7F9FA"
+            android:textColorHighlight="@color/colorPrimary"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/tombol_kuping"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_gravity="end"
+            android:background="#1163AC"
+            android:drawableStart="@mipmap/icon_kuping"
+            android:drawableLeft="@color/ic_launcher_background"
+            android:focusableInTouchMode="true"
+            android:text="@string/tombol_kuping"
+            android:textAlignment="center"
+            android:textColor="#F7F9FA"
+            android:textColorHighlight="@color/colorPrimary"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/tombol_tangan"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_gravity="end"
+            android:background="#074D85"
+            android:drawableStart="@mipmap/icon_tangan"
+            android:drawableLeft="@mipmap/icon_tangan"
+            android:focusableInTouchMode="true"
+            android:text="@string/tombol_tangan"
+            android:textAlignment="center"
+            android:textColor="#F7F9FA"
+            android:textColorHighlight="@color/colorPrimary"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/tombol_telapaktangan"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_gravity="end"
+            android:background="#1163AC"
+            android:drawableStart="@mipmap/icon_telapaktangan"
+            android:drawableLeft="@mipmap/icon_telapaktangan"
+            android:focusableInTouchMode="true"
+            android:text="@string/tombol_telapaktangan"
+            android:textAlignment="center"
+            android:textColor="#F7F9FA"
+            android:textColorHighlight="@color/colorPrimary"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/tombol_kaki"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_gravity="end"
+            android:background="#074D85"
+            android:drawableStart="@mipmap/icon_kaki"
+            android:drawableLeft="@mipmap/icon_kaki"
+            android:focusableInTouchMode="true"
+            android:text="@string/tombol_kaki"
+            android:textAlignment="center"
+            android:textColor="#F7F9FA"
+            android:textColorHighlight="@color/colorPrimary"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/tombol_telapakkaki"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_gravity="end"
+            android:background="#1163AC"
+            android:drawableStart="@mipmap/icon_telapakkaki"
+            android:drawableLeft="@mipmap/icon_telapakkaki"
+            android:focusableInTouchMode="true"
+            android:text="@string/tombol_telapakkaki"
+            android:textAlignment="center"
+            android:textColor="#F7F9FA"
+            android:textColorHighlight="@color/colorPrimary"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

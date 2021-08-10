@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fotoberbicara">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".TelapakKaki"></activity>
+        <activity android:name=".Kaki" />
+        <activity android:name=".TelapakTangan" />
+        <activity android:name=".Tangan" />
+        <activity android:name=".Kuping" />
+        <activity android:name=".Mulut" />
+        <activity android:name=".Hidung" />
+        <activity android:name=".Mata" />
+        <activity android:name=".Tidur" />
+        <activity android:name=".Olahraga" />
+        <activity android:name=".Belajar" />
+        <activity android:name=".Minum" />
+        <activity android:name=".Makan" />
+        <activity
+            android:name=".aktivitas"
+            android:label="@string/title_activity_aktivitas"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".bagianTubuh"
+            android:label="@string/title_activity_bagian_tubuh"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity android:name=".splashActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+
+        <activity android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+    </application>
+
+</manifest>

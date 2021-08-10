@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Tentang Aku</string>
+    <string name="title_activity_bagian_tubuh">Bagian Tubuh</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="tombol_mata">Mata</string>
+    <string name="tombol_hidung">Hidung</string>
+    <string name="tombol_mulut">Mulut</string>
+    <string name="tombol_tangan">Tangan</string>
+    <string name="tombol_telapaktangan">Telapak Tangan</string>
+    <string name="tombol_kaki">Kaki</string>
+    <string name="tombol_kuping">Telinga</string>
+    <string name="tombol_telapakkaki">Telapak Kaki</string>
+    <string name="title_activity_aktivitas">Aktivitas</string>
+    <string name="aktivitas_makan">Makan</string>
+    <string name="aktivitas_minum">Minum</string>
+    <string name="aktivitas_belajar">Belajar</string>
+    <string name="aktivitas_olahraga">Olahraga</string>
+    <string name="aktivitas_tidur">Tidur</string>
+
+    <string name="ketMakan">Makan / Eat</string>
+    <string name="ketMinum">Minum / Drink</string>
+    <string name="ketBelajar">Belajar / Study</string>
+    <string name="ketOlahraga">Olahraga / Sport</string>
+    <string name="ketTidur">Tidur / Sleep</string>
+    <string name="ketMata">Mata / Eye</string>
+    <string name="ketHidung">Hidung / Nose</string>
+    <string name="ketMulut">Mulut / Mouth</string>
+    <string name="ketKuping">Telinga / Ear</string>
+    <string name="ketTangan">Tangan / Hand</string>
+    <string name="ketTTangan">Telapak Tangan / Palm</string>
+    <string name="ketKaki">Kaki / Feet</string>
+    <string name="ketTKaki">Telapak Kaki / Soles of the feet</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="title_activity_makan">Makan</string>
+
+    <string name="title_activity_minum">Minum</string>
+
+    <string name="title_activity_belajar">Belajar</string>
+
+    <string name="title_activity_olahraga">Olahraga</string>
+
+    <string name="title_activity_tidur">Tidur</string>
+</resources>

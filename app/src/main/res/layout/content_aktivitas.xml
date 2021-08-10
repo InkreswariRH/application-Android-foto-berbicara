@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".aktivitas"
+    tools:showIn="@layout/activity_aktivitas2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/makan"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_gravity="end"
+            android:background="#074D85"
+            android:drawableStart="@mipmap/icon_makan"
+            android:drawableLeft="@color/ic_launcher_background_makan"
+            android:focusableInTouchMode="true"
+            android:text="@string/aktivitas_makan"
+            android:textAlignment="center"
+            android:textColor="#F7F9FA"
+            android:textColorHighlight="@color/colorPrimary"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/minum"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_gravity="end"
+            android:background="#1163AC"
+            android:drawableStart="@mipmap/icon_minum"
+            android:drawableLeft="@color/ic_launcher_background_minum"
+            android:focusableInTouchMode="true"
+            android:text="@string/aktivitas_minum"
+            android:textAlignment="center"
+            android:textColor="#F7F9FA"
+            android:textColorHighlight="@color/colorPrimary"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/belajar"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_gravity="end"
+            android:background="#074D85"
+            android:drawableStart="@mipmap/icon_belajar"
+            android:drawableLeft="@color/ic_launcher_background_belajar"
+            android:focusableInTouchMode="true"
+            android:text="@string/aktivitas_belajar"
+            android:textAlignment="center"
+            android:textColor="#F7F9FA"
+            android:textColorHighlight="@color/colorPrimary"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/olahraga"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_gravity="end"
+            android:background="#1163AC"
+            android:drawableStart="@mipmap/icon_olahraga"
+            android:drawableLeft="@color/ic_launcher_background_olahraga"
+            android:focusableInTouchMode="true"
+            android:text="@string/aktivitas_olahraga"
+            android:textAlignment="center"
+            android:textColor="#F7F9FA"
+            android:textColorHighlight="@color/colorPrimary"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/tidur"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_gravity="end"
+            android:background="#074D85"
+            android:drawableStart="@mipmap/icon_tidur"
+            android:drawableLeft="@color/ic_launcher_background_tidur"
+            android:focusableInTouchMode="true"
+            android:text="@string/aktivitas_tidur"
+            android:textAlignment="center"
+            android:textColor="#F7F9FA"
+            android:textColorHighlight="@color/colorPrimary"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
